@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value ="/user")
 public class UserController {
+
     @Autowired
     private UserService userService;
 
@@ -52,14 +53,12 @@ public class UserController {
         userService.deleteUser(id);
     }
 
-
     //添加菜单
     @ApiOperation(value = "添加菜单",notes = "添加菜单")
     @PostMapping("/menu")
     public void addMenu( @RequestBody menu menu){
         userService.addmenu(menu);
     }
-
 
     //查询所有菜单
     @ApiOperation(value = "查询所有菜单",notes = "查询所有菜单")
@@ -70,7 +69,6 @@ public class UserController {
         return booklist1;
     }
 
-
     //修改菜单
     @ApiOperation(value="修改菜单",notes = "修改菜单")
     @ApiImplicitParam(name ="menu",value ="menu的属性",dataType ="menu",paramType = "body")
@@ -79,14 +77,12 @@ public class UserController {
         userService.updatemenu(menu);
     }
 
-
     //删除菜单
     @ApiOperation(value = "删除菜单",notes = "删除菜单")
     @DeleteMapping("/menu/{id}")
     public void deleteMenu(@PathVariable Integer id){
         userService.deletemenu(id);
     }
-
 
     //给用户赋予菜单
     @ApiOperation(value = "给用户赋予菜单",notes = "给用户赋予菜单")
@@ -168,7 +164,6 @@ public class UserController {
         return userService.traverse(booklist);
     }
 
-
     //根据用户id 直接查询出所对应的功能
     @ApiOperation(value = "根据用户id 直接查询出所对应的功能",notes = "根据用户id 直接查询出所对应的功能")
     @GetMapping("get/{id}")
@@ -176,6 +171,5 @@ public class UserController {
         List<operation> maplist1 = userService.getOperationUserById(id);
         return maplist1;
     }
-
 
 }

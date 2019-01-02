@@ -2,6 +2,7 @@ package com.taifan1.service;
 
 import com.taifan1.domain.*;
 import com.taifan1.mapper.UserMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -9,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 @Service
 public class UserServiceimpl implements UserService {
-    @Resource
     private UserMapper userMapper;
+
     //查询所有用户
     @Override
     public List<User> getUser() {
@@ -64,6 +65,7 @@ public class UserServiceimpl implements UserService {
     public int selectUserByIdMenuId(Integer id, Integer menu_id) {
         return userMapper.selectUserByIdMenuId(id,menu_id);
     }
+
     @Override
     public int addUserMenu(Integer id, Integer menu_id) {
         return userMapper.addUserMenu(id,menu_id);

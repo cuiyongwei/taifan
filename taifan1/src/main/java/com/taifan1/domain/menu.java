@@ -14,11 +14,8 @@ public class menu {
     @ApiModelProperty(value="menus数组",hidden=true)
     private List<operation> operation;//菜单和操作表 一对多 在一的一方引入多的一方 引入集合；
 
-
     //菜单和用户之间是多对多的关系
    // private List<User> users;
-
-
 
     public Integer getId() {
         return id;

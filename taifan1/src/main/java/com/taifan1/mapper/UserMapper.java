@@ -46,6 +46,7 @@ public interface UserMapper {
     //给用户赋予菜单，先查询
     @Select("select count(*) from us where menu_id=#{menu_id} and user_id = #{id} ")
     int selectUserByIdMenuId(@Param("id")Integer id,@Param("menu_id") Integer menu_id);
+
     //给用户赋予菜单
     @Insert("insert into us(menu_id,user_id) values (#{menu_id},#{uid}) ")
     @Results( value={
@@ -83,8 +84,8 @@ public interface UserMapper {
     List<operation> getoperationById(Integer id);
 
     //整合sql语句 直接根据id查出用户功能
-    @Select("select * from operation o left join menu on menu.id = o.id " +
-            " left join us on us.menu_id = menu.id " +
+    @Select("select * from operation o left join menu on menu.id = o.id" +
+            "left join us on us.menu_id = menu.id" +
             "left join user on us.user_id = user.id where us.user_id=#{id} ")
     List<operation> getOperationUserById(Integer id);
 
