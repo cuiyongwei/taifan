@@ -15,10 +15,6 @@ import java.util.List;
 @RestController
 @RequestMapping(value ="/user")
 public class UserController {
-<<<<<<< HEAD
-=======
-
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     @Autowired
     private UserService userService;
 
@@ -175,8 +171,4 @@ public class UserController {
         return maplist1;
     }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
 }
