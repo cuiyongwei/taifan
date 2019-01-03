@@ -54,7 +54,17 @@ public interface UserService {
     List<operation> getoperationById(int id);
     List<menu> traverse(List<menu> booklist);
 
+<<<<<<< HEAD
     //根据用户id直接查出功能
     List<operation> getOperationUserById(int id);
 
+=======
+
+    //根据用户id直接查出功能
+    List<operation> getOperationUserById(int id);
+
+
+
+
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
 }

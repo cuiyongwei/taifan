@@ -11,7 +11,10 @@ import java.util.List;
  */
 @Mapper
 public interface UserMapper {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     //查询出所有用户
     @Select("select * from user")
     List<User> getUser();
@@ -85,11 +88,20 @@ public interface UserMapper {
     List<operation> getoperationById(Integer id);
 
     //整合sql语句 直接根据id查出用户功能
+<<<<<<< HEAD
     @Select("select * from operation o left join menu on menu.id = o.id " +
             " left join us on us.menu_id = menu.id " +
             "left join user on us.user_id = user.id where us.user_id=#{id} ")
     List<operation> getOperationUserById(Integer id);
 
+=======
+    @Select("select * from operation o left join menu on menu.id = o.id" +
+            "left join us on us.menu_id = menu.id" +
+            "left join user on us.user_id = user.id where us.user_id=#{id} ")
+    List<operation> getOperationUserById(Integer id);
+
+
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
 }
 
 

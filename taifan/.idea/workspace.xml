@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06f86fe4-df20-49c5-a231-1f89aa63bd54" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taifan1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taifan1/src/main/java/com/mysql/jdbc/permissions.sql" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../taifan1/.idea/vcs.xml" afterDir="false" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       <change afterPath="$PROJECT_DIR$/../taifan1/src/main/java/com/taifan1/SwaggerConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taifan1/src/main/java/com/taifan1/WebMVCConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taifan1/src/main/java/com/taifan1/ZhuLei.java" afterDir="false" />
@@ -21,7 +25,10 @@
       <change afterPath="$PROJECT_DIR$/../taifan1/src/main/java/com/taifan1/service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taifan1/src/main/java/com/taifan1/service/UserServiceimpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taifan1/src/main/resources/application.properties" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../taifan1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taifan1/.idea/workspace.xml" afterDir="false" />
+=======
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -80,7 +87,11 @@
     <session id="1764400206">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="16" />
+=======
+          <entry key="project.closed" value="14" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -91,6 +102,7 @@
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
+<<<<<<< HEAD
           <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.49" value="1" />
@@ -98,6 +110,14 @@
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.99" value="1" />
           <entry key="project.opened" value="18" />
+=======
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.99" value="1" />
+          <entry key="project.opened" value="16" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -107,7 +127,10 @@
           <entry key="java" value="325" />
           <entry key="kt" value="4" />
           <entry key="properties" value="36" />
+<<<<<<< HEAD
           <entry key="sql" value="2" />
+=======
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -118,7 +141,10 @@
           <entry key="JAVA" value="325" />
           <entry key="Kotlin" value="4" />
           <entry key="Properties" value="36" />
+<<<<<<< HEAD
           <entry key="SQL" value="2" />
+=======
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -139,7 +165,64 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+              <folding>
+                <element signature="e#2320#2321#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/service/UserServiceimpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -210,6 +293,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
+<<<<<<< HEAD
                 <option name="description" value="Initializes a new Gradle build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
@@ -218,6 +302,20 @@
                 <option name="description" value="Displays the components produced by root project 'taifan'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
+=======
+                <option name="description" value="Displays the components produced by root project 'taifan'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseClasspath" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'taifan'." />
@@ -225,6 +323,19 @@
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+<<<<<<< HEAD
+=======
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
                 <option name="description" value="Displays the dependent components of components in root project 'taifan'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
@@ -235,9 +346,14 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+<<<<<<< HEAD
                 <option name="description" value="Displays the insight into a specific dependency in root project 'taifan'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
+=======
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseProject" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Gradle wrapper files." />
@@ -245,6 +361,7 @@
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+<<<<<<< HEAD
                 <option name="description" value="Displays all dependencies declared in root project 'taifan'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
@@ -253,6 +370,31 @@
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
+=======
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the configuration model of root project 'taifan'. [incubating]" />
@@ -260,15 +402,123 @@
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+<<<<<<< HEAD
                 <option name="description" value="Displays the properties of root project 'taifan'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
+=======
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'taifan'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
+<<<<<<< HEAD
+=======
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'taifan'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'taifan'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'taifan'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'taifan'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
             </list>
           </value>
         </entry>
@@ -276,7 +526,11 @@
     </option>
     <option name="modificationStamps">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="1546483801048" />
+=======
+        <entry key="$PROJECT_DIR$" value="4634295926267" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2232829129" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="744716583" />
@@ -292,6 +546,25 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+<<<<<<< HEAD
+=======
+                        <option name="entries">
+                          <list>
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.RELEASE/d88527da7e6f0c0413cb3aaa0b40b8fd5935078f/spring-boot-gradle-plugin-2.0.0.RELEASE-sources.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.RELEASE/965442c239a8bab04d703a20fbe5ca06662932cb/spring-boot-loader-tools-2.0.0.RELEASE-sources.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.4.RELEASE/f56e13eea5c5d3640efb34dc0f55b1369000fe32/dependency-management-plugin-1.0.4.RELEASE-sources.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.4.RELEASE/4c83662d0a602b46635de6562750d44c397aad41/spring-core-5.0.4.RELEASE-sources.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/43a23e357fa7b187c261520914c0b001ea1a62a2/commons-compress-1.14-sources.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.4.RELEASE/1d86d46692a78817d638e5a9e524400a8db13c34/spring-jcl-5.0.4.RELEASE-sources.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.RELEASE/2383b6249166ace67896b030dbedd04a4c5f9e0a/spring-boot-gradle-plugin-2.0.0.RELEASE.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.RELEASE/4028160dac97d34f0851f3aa9b87a0c3877d630a/spring-boot-loader-tools-2.0.0.RELEASE.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.4.RELEASE/f5b1df47ed5f708faa4d2fe0a71eb7fd36e11696/dependency-management-plugin-1.0.4.RELEASE.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.4.RELEASE/2221a957b5561a34f044350ba4e30ef5870254a3/spring-core-5.0.4.RELEASE.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="D:/idea_gradle/gradle-4.6/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.4.RELEASE/3053e2bad0a18571bdbb9596ce51f9d458f5934f/spring-jcl-5.0.4.RELEASE.jar" />
+                          </list>
+                        </option>
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -507,9 +780,14 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+<<<<<<< HEAD
     <option name="x" value="43" />
     <option name="y" value="232" />
     <option name="width" value="1135" />
+=======
+    <option name="x" value="-238" />
+    <option name="width" value="980" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -541,8 +819,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -555,10 +836,39 @@
               <item name="taifan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="taifan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taifan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="taifan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taifan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taifan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taifan" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,7 +879,11 @@
     <property name="SearchEverywhereHistoryKey" value="build path&#9;PSI&#9;JAVA://org.assertj.core.util.diff.myers.MyersDiff#buildPath&#10;Power Save Mode &#9;ACTION&#9;TogglePowerSave" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546072978526" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545628532197" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../taifan1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -579,6 +893,7 @@
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideachucun\taifan\src\main\java\com\mysql\jdbc" />
       <recent name="D:\ideachucun\taifan\src\main\resources" />
@@ -586,6 +901,14 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.taifan.zhulei" />
     </key>
+=======
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.taifan.zhulei" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideachucun\taifan\src\main\resources" />
+    </key>
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -929,9 +1252,13 @@
       <workItem from="1545785196826" duration="8012000" />
       <workItem from="1545870607956" duration="6224000" />
       <workItem from="1545958202826" duration="2691000" />
+<<<<<<< HEAD
       <workItem from="1546044303302" duration="4375000" />
       <workItem from="1546246421828" duration="1268000" />
       <workItem from="1546390846083" duration="588000" />
+=======
+      <workItem from="1546044303302" duration="3623000" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     </task>
     <servers />
   </component>
@@ -968,7 +1295,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="300443000" />
+=======
+    <option name="totallyTimeSpent" value="297835000" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -980,10 +1311,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.22885196" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.22280967" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       <window_info id="Structure" order="1" sideWeight="0.50274724" side_tool="true" weight="0.21978852" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -993,7 +1330,11 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33050847" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924472" weight="0.22881356" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924472" visible="true" weight="0.08813559" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848944" weight="0.34915254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1322,6 +1663,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mysql/jdbc/taifan.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285" />
@@ -1331,6 +1673,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+          <folding>
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
         </state>
       </provider>
     </entry>
@@ -1341,6 +1700,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1352,6 +1712,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan/service/UserServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+          </folding>
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
         </state>
       </provider>
     </entry>

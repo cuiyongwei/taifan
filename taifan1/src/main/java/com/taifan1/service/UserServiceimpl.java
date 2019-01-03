@@ -2,6 +2,10 @@ package com.taifan1.service;
 
 import com.taifan1.domain.*;
 import com.taifan1.mapper.UserMapper;
+<<<<<<< HEAD
+=======
+import org.springframework.beans.factory.annotation.Autowired;
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -9,7 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 @Service
 public class UserServiceimpl implements UserService {
+<<<<<<< HEAD
     @Resource
+=======
+>>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     private UserMapper userMapper;
 
     //查询所有用户
