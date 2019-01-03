@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c02e50e9-259e-43c9-8951-05cf75f15169" name="Default Changelist" comment="">
-<<<<<<< HEAD
-=======
       <change afterPath="$PROJECT_DIR$/../taifan/src/main/java/com/mysql/jdbc/taifan.sql" afterDir="false" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mysql/jdbc/permissions.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/taifan1/SwaggerConfig.java" afterDir="false" />
@@ -75,22 +72,16 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="gradle" value="1" />
-<<<<<<< HEAD
           <entry key="java" value="10367" />
-=======
           <entry key="java" value="10362" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <entry key="properties" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-<<<<<<< HEAD
           <entry key="JAVA" value="10367" />
-=======
           <entry key="JAVA" value="10362" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="15" />
         </counts>
@@ -105,13 +96,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="228">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-=======
+            <state relative-caret-position="228" />
+            <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
             <state relative-caret-position="207">
               <caret line="109" column="40" lean-forward="true" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
               <folding>
                 <element signature="e#1274#1275#0" expanded="true" />
                 <element signature="e#1318#1319#0" expanded="true" />
@@ -129,12 +117,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-=======
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
+        <provider selected="true" editor-type-id="text-editor" />
+        <state relative-caret-position="38" />
+        <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
         <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -178,7 +164,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
             </state>
           </provider>
         </entry>
@@ -641,17 +626,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/domain/Us.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/domain/menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/domain/operation.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/service/UserServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/mapper/UserMapper.java" />
-=======
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/service/UserServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taifan1/controller/UserController.java" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       </list>
     </option>
   </component>
@@ -661,15 +643,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-<<<<<<< HEAD
-    <option name="x" value="43" />
-    <option name="y" value="232" />
-    <option name="width" value="1135" />
-=======
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-238" />
+    <option name="y" value="232" />
     <option name="width" value="980" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -690,9 +667,7 @@
             <path>
               <item name="taifan1" type="b2602c69:ProjectViewProjectNode" />
               <item name="taifan1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-<<<<<<< HEAD
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -753,34 +728,27 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="taifan1" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
             </path>
             <path>
               <item name="taifan1" type="b2602c69:ProjectViewProjectNode" />
               <item name="taifan1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-<<<<<<< HEAD
               <item name="out" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="taifan1" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
             </path>
             <path>
               <item name="taifan1" type="b2602c69:ProjectViewProjectNode" />
               <item name="taifan1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="taifan1" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
             </path>
           </expand>
           <select />
@@ -870,11 +838,8 @@
       <workItem from="1545966314272" duration="23323000" />
       <workItem from="1546045196216" duration="16976000" />
       <workItem from="1546247140273" duration="4939000" />
-<<<<<<< HEAD
       <workItem from="1546390864278" duration="5622000" />
-=======
       <workItem from="1546390864278" duration="2955000" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
     </task>
     <servers />
   </component>
@@ -890,11 +855,8 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="161525000" />
-=======
     <option name="totallyTimeSpent" value="157659000" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,14 +869,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-<<<<<<< HEAD
     <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.23867069" />
-=======
+    <layout />
+    <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.23867069" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.23867069" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       <window_info id="Structure" order="1" sideWeight="0.5014837" side_tool="true" weight="0.22885196" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -924,11 +883,8 @@
       <window_info id="Web" order="7" sideWeight="0.5027027" side_tool="true" weight="0.22885196" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.07457627" />
-<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13050847" />
-=======
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30338982" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3101695" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1154,7 +1110,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -1165,16 +1120,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/mapper/UserMapper.java" />
+    <provider selected="true" editor-type-id="text-editor" />
+    <state relative-caret-position="304" />
+    <caret line="91" selection-start-line="91" selection-end-line="91" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1183,13 +1136,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/service/UserServiceimpl.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-1444">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-=======
+        <state relative-caret-position="-1444" />
+        <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         <state relative-caret-position="1995">
           <caret line="125" column="51" lean-forward="true" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1161#1162#0" expanded="true" />
@@ -1208,12 +1158,10 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-=======
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
+    <provider selected="true" editor-type-id="text-editor" />
+    <state relative-caret-position="38" />
+    <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1221,19 +1169,15 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taifan1/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="228">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-=======
+        <state relative-caret-position="228" />
+        <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
         <state relative-caret-position="207">
           <caret line="109" column="40" lean-forward="true" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
->>>>>>> 8d1483cd47720cbac38490d9dcac814854ed0723
           <folding>
             <element signature="e#1274#1275#0" expanded="true" />
             <element signature="e#1318#1319#0" expanded="true" />
