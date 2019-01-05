@@ -1,5 +1,6 @@
 package com.taifan1.service;
 
+import com.github.pagehelper.PageHelper;
 import com.taifan1.domain.*;
 import com.taifan1.mapper.UserMapper;
 import org.springframework.stereotype.Service;
@@ -12,10 +13,25 @@ public class UserServiceimpl implements UserService {
     @Resource
     private UserMapper userMapper;
 
-    //查询所有用户
+   //查询所有用户
     @Override
     public List<User> getUser() {
         return userMapper.getUser();
+    }
+
+    //分页查询所有用户
+    @Override
+    public List<User> getUser(String name,int pageNum, int pageSize) throws Exception {
+        //使用分页插件,核心代码就这一行
+        PageHelper.startPage(pageNum, pageSize);
+        List<User> typeList = userMapper.likeSelectUser(name);
+        return typeList;
+    }
+
+    //根据用户名模糊查询用户
+    @Override
+    public List<User> likeSelectUser(String name) {
+        return userMapper.likeSelectUser(name);
     }
 
     //添加用户

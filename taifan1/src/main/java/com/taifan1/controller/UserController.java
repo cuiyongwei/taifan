@@ -1,5 +1,6 @@
 package com.taifan1.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.taifan1.domain.User;
 import com.taifan1.domain.menu;
 import com.taifan1.domain.operation;
@@ -8,6 +9,7 @@ import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,6 +19,27 @@ import java.util.List;
 public class UserController {
     @Autowired
     private UserService userService;
+    private PageResults<User> pageResults1 ;
+
+    //分页模糊查询
+    @ApiOperation(value = "分页查询所有用户",notes = "分页查询所有用户")
+    @GetMapping(value = "/Paging", produces = "application/json;charset=UTF-8")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name ="name",value ="用户名",required = true,dataType ="String",paramType = "query"),
+            @ApiImplicitParam(name = "pageNum",value = "当前页",dataType = "Integer",paramType = "query"),
+            @ApiImplicitParam(name="pageSize", value="每页显示的条数", dataType = "Integer",paramType="query")})
+    public String getUserPaging(@RequestParam String name,@RequestParam int pageNum, @RequestParam int pageSize)throws Exception{
+        List<User> booklist = userService.getUser(name,pageNum,pageSize);
+        List<User> booklist1 = userService.getUser();
+        int count = booklist1.size();
+        JSONObject result = new JSONObject();
+        result.put("pageNum",pageNum);
+        result.put("pageSize", pageSize);
+        result.put("count", count);
+        result.put("data",booklist);
+        return result.toJSONString();
+    }
+
 
     //查询所有用户
     @ApiOperation(value = "查询所有用户",notes = "查询所有用户")
@@ -25,6 +48,15 @@ public class UserController {
         List<User> booklist = userService.getUser();
         System.out.println(booklist);
         return booklist;
+    }
+
+    //根据用户名模糊查询用户
+    @ApiOperation(value = "模糊查询用户",notes = "根据用户名模糊查询用户")
+    @GetMapping(value = "/like")
+    @ApiImplicitParam(name ="name",value ="用户名",required = true,dataType ="String",paramType = "query")
+    public List<User> likeSelectUser(@RequestParam String name){
+      return userService.likeSelectUser(name);
+
     }
 
     //添加用户

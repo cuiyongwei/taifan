@@ -16,6 +16,11 @@ public interface UserMapper {
     @Select("select * from user")
     List<User> getUser();
 
+    //根据用户名模糊查询用户
+    @Select("select * from user where name like CONCAT('%',#{name},'%')")
+    List<User> likeSelectUser(@Param("name") String name);
+
+
     //添加用户
     @Insert("insert into user(id,name,password)values(#{id},#{name},#{password})")
     int addUser(User user);

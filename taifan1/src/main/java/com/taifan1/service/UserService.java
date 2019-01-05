@@ -10,6 +10,12 @@ public interface UserService {
     //查询所有用户
     List<User> getUser();
 
+    //分页查询
+    List<User> getUser(String name,int pageNum, int pageSize) throws Exception;
+
+    //模糊查询用户
+    List<User>likeSelectUser(String name);
+
     //添加用户
     int addUser(User user);
 
