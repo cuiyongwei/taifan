@@ -7,6 +7,7 @@ import com.education.domain.User;
 import com.education.mapper.MenuMapper;
 import com.education.mapper.RoleMapper;
 import com.education.mapper.UserMapper;
+import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -24,8 +25,26 @@ public class UserServiceimpl implements UserService {
 
     //查询所有用户
     @Override
-    public List<User> getUser() {
-        return userMapper.getUser();
+    public List<User> getAllUser() {
+        return userMapper.getAllUser();
+    }
+
+    //分页获取所有用户
+    @Override
+    public List<User> getPaging(int pageNum, int pageSize) throws Exception {
+        //使用分页插件,核心代码就这一行
+        PageHelper.startPage(pageNum, pageSize);
+        List<User> paginglist = userMapper.getAllUser();
+        return paginglist;
+    }
+
+    //查询所有用户
+    @Override
+    public List<User> getUser(String name, int pageNum, int pageSize) throws Exception {
+        //使用分页插件,核心代码就这一行
+        PageHelper.startPage(pageNum, pageSize);
+        List<User> typeList = userMapper.getUser(name);
+        return typeList;
     }
 
     //添加用户

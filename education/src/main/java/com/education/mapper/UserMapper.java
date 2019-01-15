@@ -15,10 +15,13 @@ public interface UserMapper {
 
     //获取所有用户
     @Select("select * from user")
-    List<User> getUser();
+    List<User> getAllUser();
+
+    //分页获取所有用户
+    @Select("select * from user where name like CONCAT('%',#{name},'%')")
+    List<User> getUser(@Param("name") String name);
 
     //添加用户
-
     /**
      *
      * keyProperty: 表示将select返回值设置到该类属性中

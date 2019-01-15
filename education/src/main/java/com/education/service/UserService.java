@@ -1,6 +1,5 @@
 package com.education.service;
 
-import com.education.domain.Menu;
 import com.education.domain.Role;
 import com.education.domain.User;
 import org.springframework.stereotype.Service;
@@ -10,7 +9,13 @@ import java.util.List;
 public interface UserService {
 
     //获取所有用户
-    List<User> getUser();
+    List<User> getAllUser();
+
+    //分页获取用户
+    List<User> getPaging(int pageNum,int pageSize) throws Exception;
+
+    //分页获取所有用户
+    List<User> getUser(String name,int pageNum,int pageSize) throws Exception;
 
     //添加用户
     int addUser(User user);
@@ -34,8 +39,5 @@ public interface UserService {
 
     //根据角色查询出菜单和资源
     List<Role> getRoleMenuResourcesUserById(List<Role> roleList1);
-
-
-
 
 }

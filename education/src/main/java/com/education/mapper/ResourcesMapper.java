@@ -12,7 +12,7 @@ import java.util.List;
 public interface ResourcesMapper {
 
     //查询所有资源
-    @Select("select * from Resources")
+    @Select("select * from resources")
     List<Resources> getResources();
 
     //添加资源

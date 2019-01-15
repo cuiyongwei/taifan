@@ -1,5 +1,6 @@
 package com.education.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.education.domain.Role;
 import com.education.domain.User;
 import com.education.service.UserService;
@@ -18,10 +19,41 @@ public class UserController {
 
     //查询所有用户
     @ApiOperation(value = "查询所有用户",notes = "查询所有用户")
-    @GetMapping(value = "")
-    public List<User> getUser(){
-      List<User> booklist=userService.getUser();
-      return booklist;
+    @GetMapping(value = "",produces = "application/json;charset=UTF-8")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "pageNum",value = "当前页",dataType = "Integer",paramType = "query"),
+            @ApiImplicitParam(name="pageSize", value="每页显示的条数", dataType = "Integer",paramType="query")
+    })
+    public String getAllUser(@RequestParam int pageNum,@RequestParam int pageSize ) throws Exception {
+        List<User> userList1 = userService.getPaging(pageNum,pageSize);
+        List<User> counts = userService.getAllUser();
+       int number = counts.size();
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("pageNum",pageNum);
+        jsonObject.put("pageSize",pageSize);
+        jsonObject.put("count",number);
+        jsonObject.put("data",userList1);
+        return jsonObject.toJSONString();
+    }
+
+    //根据用户名查询用户
+    @ApiOperation(value = "根据用户名查询用户",notes = "查询所有用户")
+    @GetMapping(value = "/Paging",produces = "application/json;charset=UTF-8")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name ="name",value ="用户名",required = true,dataType ="String",paramType = "query"),
+            @ApiImplicitParam(name = "pageNum",value = "当前页",dataType = "Integer",paramType = "query"),
+            @ApiImplicitParam(name="pageSize", value="每页显示的条数", dataType = "Integer",paramType="query")
+    })
+    public String getUser(@RequestParam String name,@RequestParam int pageNum,@RequestParam int pageSize) throws Exception {
+        List<User> booklist=userService.getUser(name,pageNum,pageSize);
+        List<User> userList1 = userService.getAllUser();
+        int count = userList1.size();
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("pageNum",pageNum);
+        jsonObject.put("pageSize",pageSize);
+        jsonObject.put("count",count);
+        jsonObject.put("data",booklist);
+      return jsonObject.toJSONString();
     }
 
     //添加用户

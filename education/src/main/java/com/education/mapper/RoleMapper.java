@@ -29,7 +29,7 @@ public interface RoleMapper {
 
 
     //查询角色
-    @Select("select * from Role")
+    @Select("select * from role")
     List<Role> getRole();
 
     //修改角色
