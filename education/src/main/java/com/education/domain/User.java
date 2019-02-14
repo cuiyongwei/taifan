@@ -10,6 +10,16 @@ public class User {
     private String name; //用户名
     private String password; //密码
 
+    public User(String id, String name, String password) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+    }
+
+    public User() {
+        super();
+    }
+
     public String getId() {
         return id;
     }

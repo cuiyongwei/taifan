@@ -1,8 +1,9 @@
 package com.education.service;
 
-import com.education.domain.Role;
-import com.education.domain.User;
+import com.education.domain.*;
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 @Service
@@ -39,5 +40,15 @@ public interface UserService {
 
     //根据角色查询出菜单和资源
     List<Role> getRoleMenuResourcesUserById(List<Role> roleList1);
+
+    //导入Excel表，解析，字段赋值，存储
+    boolean batchImport(String fileName, MultipartFile file) throws Exception;
+
+    //从excel中获取的值添加到数据库
+    void addText(List<Text> utils);
+
+    //获取Person数据
+    List<Person> getAllPerson();
+
 
 }
