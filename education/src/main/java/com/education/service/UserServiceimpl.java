@@ -275,7 +275,7 @@ public class UserServiceimpl implements UserService {
 
     //从excel中获取的值添加到数据库
     @Override
-    public void addText(List<Text> utils) {
+    public void addText(List<Person> utils) {
         for (int k =0;k<utils.size();k++){
 
            /* Text text = utils.get(k);

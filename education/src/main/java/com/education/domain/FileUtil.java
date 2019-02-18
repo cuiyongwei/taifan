@@ -32,7 +32,9 @@ import java.util.NoSuchElementException;
 
 /**
  * 导入到出公用方法
+ *
  */
+
 public class FileUtil {
 
     public static final String[] EXCEL_EXT = {"xls","xlsx"};
@@ -115,6 +117,7 @@ public class FileUtil {
         } catch (Exception e) {
             throw new Exception(e.getMessage());
         }
+        System.out.println(list);
         return list;
     }
 

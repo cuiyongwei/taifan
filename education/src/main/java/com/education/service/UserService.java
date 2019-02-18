@@ -45,7 +45,7 @@ public interface UserService {
     boolean batchImport(String fileName, MultipartFile file) throws Exception;
 
     //从excel中获取的值添加到数据库
-    void addText(List<Text> utils);
+    void addText(List<Person> personList);
 
     //获取Person数据
     List<Person> getAllPerson();

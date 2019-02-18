@@ -86,8 +86,8 @@ public interface UserMapper {
     Util upDateutil(Util userResord);
 
     //从excel中获取的值添加到数据库
-    @Insert("insert into text(name,phone)values(#{name},#{phone})")
-    void addText(Text text);
+    @Insert("insert into person(name,sex,birthday,age)values(#{name},#{sex},#{birthday},#{age})")
+    void addText(Person person);
 
     //获取Person数据
     //获取所有用户

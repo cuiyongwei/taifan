@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.education.domain.*;
 import com.education.service.UserService;
 import io.swagger.annotations.*;
+import org.apache.commons.lang3.time.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -11,6 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Api(value = "用户conctroller",tags = {"用户操作接口"})
@@ -133,15 +135,23 @@ public class UserController {
     //自定义导入excel表
     //导入Excel表，解析，字段赋值，存储
     @PostMapping("/import")
-    @ApiOperation(value = "自定义导入Excel",notes = "自定义方法导入")
+    @ApiOperation(value = "自定义导入Excel",notes = "自定义方法导入", produces = "application/json")
     public boolean addUser(@RequestParam("file") MultipartFile file) {
         boolean a = false;
         String fileName = file.getOriginalFilename();//获取文件名
+        System.out.println("读取文件名"+fileName);
         try {
           // a = userService.batchImport(fileName, file);
+           /*自己写的导入方法 字段顺序必须与excel顺序对应
            List<Text> utils = FileUtil.batchImport(fileName, file,Text.class);
             System.out.println(utils);
-            userService.addText(utils);
+            userService.addText(utils);*/
+           //工具类 用注解的方式去对应
+          // List<Person> personList = FileUtil.importExcel(file,0,1,Person.class);
+
+            List<Person> personList = Instrument.importExcel(file,1,1,Person.class);
+            userService.addText(personList);
+            System.out.println(""+personList);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -193,9 +203,12 @@ public class UserController {
     @GetMapping(value = "export")
     public void export(HttpServletResponse response, HttpServletRequest request) throws Exception {
         //模拟从数据库获取需要导出的数据
-        List<Person> counts = userService.getAllPerson();
+       List<Person> counts = userService.getAllPerson();
+        System.out.println(counts);
         //导出操作
-        FileUtil.exportExcel(counts,"花名册","草帽一伙",Person.class,"海贼王.xls",response);
+       // FileUtil.exportExcel(counts,"花名册","草帽一伙",Person.class,"海贼王.xls",response);
+
+        Instrument.exportExcel(counts,"花名册","草帽一伙",Person.class,"海贼王.xls",response);
       /*  String[] title = {"花名册"};
         Lise.generateSheet(response,title, count, User.class);*/
 
